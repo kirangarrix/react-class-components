@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2980b9;
+}
+
+.header input{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+
+
+.news_item{
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px dashed #2980b9;
+}
