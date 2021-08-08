@@ -8,7 +8,6 @@ const newsList = (props) => {
         <NewsItem item={item} key={item.id} />
        ))
 
-    console.log(props);
     return (
         <>
          { news }

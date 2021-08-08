@@ -1,26 +1,19 @@
-import React, { Component } from "react";
-import '../styles/styles.css'
+import React from "react";
+import '../styles/styles.css';
 
-// const Header = () => {
-//     return (
-//         <div>
-//             <h1>Hello </h1>
-//             <input/>
-//         </div>
-//     )
-// }
 
-class Header extends Component {
- 
-  render() {
+const Header=(props)=> {
+
+
+    console.log(props);
       
     return (
       <div className="header">
         <h1>NEWS TODAY </h1>
-        <input />
+        <input onChange={props.keywords} />
       </div>
     );
-  }
+  
 }
 
 export default Header;
